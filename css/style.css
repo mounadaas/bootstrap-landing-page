@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+   font-family: 'Lexend', sans-serif;
+   line-height: 1.9;
+
+}
+ul li:hover{
+    background-color: #eee;
+    border-radius: 5px;
+}
+.navbar-toggler{
+    color: transparent;
+}
+.Landing{
+    height: calc(100vh - 56px);
+    margin:auto ;
+}
+.started{
+    background-color:#0D6EFD;
+}
+.worldwid, .x1{
+    background-color:#0F172A;
+}
+
+footer svg:hover{
+    color: rgb(70, 69, 69);
+    cursor: pointer;
+}
+@media ( max-width: 990px ){
+    footer .container div{
+        text-align: center;
+        margin: auto;
+    }
+}
+@media ( min-width: 991px ){
+    footer .social{
+        text-align: end;
+    }
+}
+
+.business i:hover{
+    background-color:#0D6EFD;
+    cursor: pointer;
+}
+.card{
+    background-color: transparent;
+}
